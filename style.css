@@ -1,0 +1,77 @@
+/*
+Theme Name: Automat 2020
+Template: twentytwenty
+Version: 1.1.2
+Author: ♥
+Author URI: https://idefixx.cz
+License: GNU General Public License, version 3 (GPLv3)
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+/* CSS Multi-column Layout: https://www.vzhurudolu.cz/prirucka/css-masonry */
+.magic-grid {
+    column-count: 4;
+    column-gap: 10px;
+}
+
+.magic-grid-item {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 30px 20px;
+    break-inside: avoid;
+}
+body.single .magic-grid-item,
+body.page .magic-grid-item {
+    padding: 0;
+}
+
+@media ( max-width: 1700px ) {
+    .magic-grid {
+        column-count: 3;
+        column-gap: 50px;
+    }
+}
+
+@media ( max-width: 1300px ) {
+    .magic-grid {
+        column-count: 2;
+        column-gap: 10px;
+    }
+}
+
+@media ( max-width: 900px ) {
+    .magic-grid {
+        column-count: 1;
+        column-gap: 10px;
+    }
+}
+
+/* TODO: Better pagination - e.g. with WP-PageNavi */
+.nav-links .page-numbers {
+    padding: 15px 0;
+}
+
+@media ( min-width: 700px ) {
+    h2.entry-title {
+        font-size: 4.5rem;
+    }
+    .section-inner {
+        width: calc(100% - 4rem);
+    }
+    .post-inner {
+        padding-top: 4rem;
+    }
+    .post-meta-wrapper {
+        margin-top: 2rem;
+    }
+    .post-meta-wrapper.post-meta-single-bottom {
+        margin-top: 2rem;
+    }
+}
+
+@media ( min-width: 1220px ) {
+    h1, .heading-size-1 {
+        font-size: 6.5rem;
+    }
+}
