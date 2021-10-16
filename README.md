@@ -5,6 +5,8 @@ I use paid service [IFTTT](https://ifttt.com/) for that.
 
 Automat is a child theme of the [Twenty Twenty](https://wordpress.org/themes/twentytwenty/) theme.
 
+Check it live @ https://automat.idefixx.cz/
+
 ## Used plugins
 
 1. Jetpack serves content back to Twitter and Facebook
